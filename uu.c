@@ -112,5 +112,12 @@ int main(int argc, char **argv)
           "-DRLENC_IMPLEMENTATION", "-DRLENC_TEST" },
     });
 
+    uu((struct exec) {
+        "example",
+        { "example.c" },
+        { "-ggdb", "-O0", "-std=c17",
+          "-Wall", "-Wpedantic", "-Wmissing-prototypes" },
+    });
+
     return EXIT_SUCCESS;
 }
