@@ -1,6 +1,8 @@
 # rlenc
 
-Run-length encoding library
+It's supposed to be a run-length encoding library but actually turns out it was
+more like an experiment towards writing libraries. I would consider this library
+as unstable.
 
 ### Testing
 
